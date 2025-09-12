@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap");
+@import "tailwindcss";
+
+html {
+ scroll-behavior: smooth;
+}
+
+body {
+ font-family: "Geist", sans-serif;
+}
+
+button {
+ @apply px-4 rounded-lg cursor-pointer transition-all duration-300;
+}
+a {
+ @apply px-4 rounded-lg cursor-pointer transition-all duration-300;
+}
