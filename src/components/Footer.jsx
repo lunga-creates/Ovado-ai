@@ -200,19 +200,20 @@ const Footer = () => {
               <div className="flex items-center mb-2 justify-center">
                 <MessageCircle className="w-8 h-8 text-green-400 mr-2" />
               </div>
-              <h4 className=" font-semibold mb-2 text-center">
+              <h4 className="font-semibold mb-2 text-center">
                 Looking for Enterprise AI development?
               </h4>
-              <a
-                href="https://wa.link/xzft49"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-full"
-              >
-                <button className="bg-green-500 hover:bg-green-600 text-gray-100 px-4 py-2 rounded-full text-sm font-medium transition-colors w-full">
-                  Message Now!
-                </button>
-              </a>
+              <div className="flex justify-center">
+                <a
+                  href="https://wa.link/xzft49"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="bg-green-500 hover:bg-green-600 text-gray-100 px-4 py-2 rounded-full text-sm font-medium transition-colors">
+                    Message Now!
+                  </button>
+                </a>
+              </div>
             </div>
           </div>
         </div>
